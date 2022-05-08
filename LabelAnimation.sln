@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelAnimation.Android", "LabelAnimation\LabelAnimation.Android\LabelAnimation.Android.csproj", "{008F3A73-C65A-40E1-B4C8-80C6948DE88F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelAnimation", "LabelAnimation\LabelAnimation\LabelAnimation.csproj", "{EB555BFB-1085-47BD-906B-1B21C3EA36DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{008F3A73-C65A-40E1-B4C8-80C6948DE88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008F3A73-C65A-40E1-B4C8-80C6948DE88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008F3A73-C65A-40E1-B4C8-80C6948DE88F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{008F3A73-C65A-40E1-B4C8-80C6948DE88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008F3A73-C65A-40E1-B4C8-80C6948DE88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{008F3A73-C65A-40E1-B4C8-80C6948DE88F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EB555BFB-1085-47BD-906B-1B21C3EA36DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB555BFB-1085-47BD-906B-1B21C3EA36DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB555BFB-1085-47BD-906B-1B21C3EA36DF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EB555BFB-1085-47BD-906B-1B21C3EA36DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB555BFB-1085-47BD-906B-1B21C3EA36DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB555BFB-1085-47BD-906B-1B21C3EA36DF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2FC05EA-8402-4FED-9C3A-36E22D5DB101}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:controls="clr-namespace:LabelAnimation.Controls"
+             x:Class="LabelAnimation.Controls.ScaleTranslateYLabelChangeExample">
+  <ContentView.Content>
+        <StackLayout>
+            <Grid ColumnSpacing="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Column="0" VerticalOptions="EndAndExpand" Orientation="Horizontal" Spacing="1">
+                    <controls:ScaleTranslateYLabelChange AnimationText="{Binding hournumber1}" FontSize="30"  FontAttributes="Bold" TextColor="White"/>
+                    <controls:ScaleTranslateYLabelChange AnimationText="{Binding hournumber2}" FontSize="30"  FontAttributes="Bold" TextColor="White"/>
+                </StackLayout>
+                <Grid Grid.Column="1" VerticalOptions="Center">
+                    <Label Text=":" FontSize="30"  TextColor="White"/>
+                </Grid>
+                <StackLayout Grid.Column="2" VerticalOptions="EndAndExpand" Orientation="Horizontal" Spacing="1">
+                    <controls:ScaleTranslateYLabelChange AnimationText="{Binding minnumber1}" FontSize="30"  FontAttributes="Bold" TextColor="White"/>
+                    <controls:ScaleTranslateYLabelChange AnimationText="{Binding minnumber2}" FontSize="30"  FontAttributes="Bold" TextColor="White"/>
+                </StackLayout>
+                <Grid Grid.Column="3" VerticalOptions="Center">
+                    <Label Text=":" FontSize="30"  TextColor="White" />
+                </Grid>
+                <StackLayout Grid.Column="4" VerticalOptions="EndAndExpand" Orientation="Horizontal" Spacing="1">
+                    <controls:ScaleTranslateYLabelChange AnimationText="{Binding secnumber1}" FontSize="30" TextColor="White"/>
+                    <controls:ScaleTranslateYLabelChange AnimationText="{Binding secnumber2}" FontSize="30"  TextColor="White" VerticalTextAlignment="End"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
